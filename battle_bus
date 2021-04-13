@@ -1,0 +1,21 @@
+BATTLE BUS:
+function = ('user') server = 'true' in-game = 'true' loaded = 'true' 
+move = @everyone = 'battle_bus'
+
+NORMAL GAMEMODE BATTLE BUS FUNCTIONS:
+if = normal gamemode = true / true
+bus height = 300f
+bus speed = 10m
+time until drop = 10s
+distance until glider/umbrella = 8s 
+speed of fall = 45fs
+time of end bus = 35s
+
+LTM SOLO SHOWDOWN BATTLE BUS FUNCTIONS:
+incorporate = ('NORMAL GAMEMODE BATTLE BUS FUNCTIONS')
+if = ltm solo showdown = true / true
+
+LTM 50 V 50 BATTLE BUS FUNCTIONS:
+if = 50v50 ltm gamemode = true / true
+# of bus = 2, r / b
+storm = instant join
