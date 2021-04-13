@@ -1,0 +1,43 @@
+{
+  "name": "fortniteshop",
+  "productName": "Fortnite Item Shop",
+  "version": "1.3.0",
+  "description": "An app that shows the Fortnite item shop",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build-installer": "electron-builder"
+  },
+  "build": {
+    "appId": "fortniteshop",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "./public/images/icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "./public/images/icon.ico",
+      "uninstallerIcon": "./public/images/icon.ico",
+      "uninstallDisplayName": "fortniteshop",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drull1000/Fortnite.git"
+  },
+  "author": "Drull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drull1000/Fortnite/issues"
+  },
+  "homepage": "https://github.com/drull1000/Fortnite#readme",
+  "devDependencies": {
+    "electron": "^9.1.1",
+    "electron-builder": "^22.7.0"
+  }
+}
