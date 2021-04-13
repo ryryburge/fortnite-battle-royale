@@ -1,0 +1,24 @@
+MAIN GAME FILES DO NOT DISTRIBUTE OR COPY:
+Epic Games Fortnite 2017
+
+STARTUP SCREEN:
+function = ('when user') log on success loading screen: 'epicgamesfortniteloading2017'
+function = ('when user') loaded in take to menu screen 'epicgamesfortnitemenuseason4'
+function = end
+
+GAMEMODE MENU:
+function = ('when user') loaded in click gamemode box =
+SOLO = true 'epicgamesfortnitesoloiconseason13'
+DUOS = true 'epicgamesfortniteduosiconseason13'
+SQUADS = true 'epicgamesfortnitesquadsiconseason13'
+function = ('end line 1')
+function = ('begin line 2')
+50 V 50 = true 'epicgamesfortniteltm50v50iconseason13'
+SOLO SHOWDOWN = true 'epicgamesfortniteltmsoloshowdowniconseason13'
+function = end
+
+ITEM SHOP:
+function = ('when user') click on "item shop" direct to 'epicgamesfortniteitemshopseason4'
+shop = 'ltm and other' git
+refund_system = false message = 'Down for Maintence'
+function = end
