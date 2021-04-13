@@ -1,0 +1,6 @@
+FORTNITE STARTUP = true
+
+login ('user') = true
+password ('user') = required immediently
+2sv ('user') = optional if added by ('user') mail to = ('user')
+if (3,4,5) = (success) function = 'start_main' = respority = main_loading_startup
