@@ -1,0 +1,14 @@
+V-BUCKS FUNCTION FORTNITE BATTLE ROYALE + SAVE THE WORLD PVE:
+
+user = function ('vbucks currency global') = true
+
+active = global = true
+
+STORE FUNCTION GLOBAL:
+
+main_module = "vbucksstorebp"
+[1000 V-Bucks]: price = 7.99 amount = 1000 active = 'true'
+[2800 V-Bucks]: price = 19.99 amount = 2800 active = 'true'
+[7500 V-Bucks]: price = 31.99 amount = 7500 active = 'true'
+[12500 V-Bucks]: price = 79.99 amount = 12500 active = 'true'
+[50000 V-Bucks] : price = 0 amount = 50000 active = 'false' event = 'true' user = 'none'
